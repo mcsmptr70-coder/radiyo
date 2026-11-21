@@ -1,0 +1,23 @@
+{
+  "name": "virgin-radio-discord-bot",
+  "version": "1.0.0",
+  "description": "Sadece Virgin Radio Türkiye çalan Discord radyo botu",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.0",
+    "@snazzah/davey": ">=0.1.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.15",
+    "opusscript": "^0.1.1",
+    "prism-media": "^1.3.5"
+  }
+}
